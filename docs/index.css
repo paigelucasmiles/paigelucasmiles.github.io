@@ -8,15 +8,13 @@ html {
 }
 
 h1 {
-  color: #0e1a25;
-  /* color: whitesmoke; */
+  color: whitesmoke;
   font-weight: 200;
   font-size: 56px;
 }
 
 h2 {
-  color: #0e1a25;
-  /* color: whitesmoke; */
+  color: whitesmoke;
   font-weight: 100;
   font-size: 28px;
 }
@@ -48,8 +46,7 @@ h2 {
 
 html, body {
   display: flex;
-  background: white;
-  /* background: #0e1a25; */
+  background: #0e1a25;
   text-align: center;
 }
 
