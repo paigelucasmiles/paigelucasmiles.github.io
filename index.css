@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #0e1a25;
+  /* color: whitesmoke; */
+  font-weight: 200;
+  font-size: 56px;
+}
+
+h2 {
+  color: #0e1a25;
+  /* color: whitesmoke; */
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+html, body {
+  display: flex;
+  background: white;
+  /* background: #0e1a25; */
+  text-align: center;
+}
+
+html {
+  font-size: 0.625em;
+}
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1.0rem;
+  text-align: center;
+  width: 110rem;
+  max-width: 100%;
+}
+.soc li {
+  display: inline-block;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  height: 9.6rem;
+  width: 9.6rem;
+}
+
+.icon-32:hover, .icon-31:hover, .icon-30:hover, .icon-29:hover, .icon-28:hover, .icon-27:hover, .icon-26:hover, .icon-25:hover, .icon-24:hover, .icon-23:hover, .icon-22:hover, .icon-21:hover, .icon-20:hover, .icon-19:hover, .icon-18:hover, .icon-17:hover, .icon-16:hover, .icon-15:hover, .icon-14:hover, .icon-13:hover, .icon-12:hover, .icon-11:hover, .icon-10:hover, .icon-9:hover, .icon-8:hover, .icon-7:hover, .icon-6:hover, .icon-5:hover, .icon-4:hover, .icon-3:hover, .icon-2:hover, .icon-1:hover {
+  border-radius: 100%;
+  fill: #0e1a25;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+.icon-8 {
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+
+.icon-13 {
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-17 {
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
